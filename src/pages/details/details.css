@@ -1,0 +1,33 @@
+.detailsContainer {
+  display: flex;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.detailsContainer img {
+  width: 300px;
+  object-fit: contain;
+}
+
+.detailsInfo {
+  max-width: 600px;
+}
+
+.detailsInfo h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.category,
+.price,
+.rating {
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  margin-top: 1rem;
+  line-height: 1.6;
+}

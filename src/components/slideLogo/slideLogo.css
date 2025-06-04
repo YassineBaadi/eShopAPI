@@ -1,0 +1,29 @@
+.marqueeWrapper {
+  width: 100%;
+  overflow: hidden;
+  background-color: beige;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.marqueeTrack {
+  display: flex;
+  gap: 3rem;
+  width: fit-content;
+  animation: scroll 60s linear infinite;
+}
+
+.marqueeLogo {
+  height: 50px;
+  flex-shrink: 0;
+}
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

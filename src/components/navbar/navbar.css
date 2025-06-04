@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cinzel:wght@400..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.navContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+}
+
+.listContainer {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listContainer li {
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-bottom 0.2s ease;
+  padding-bottom: 4px;
+  font-family: 'Poppins';
+}
+
+.listContainer a {
+  text-decoration: none; /* Retire le soulignement */
+  color: inherit;         /* Utilise la couleur du parent */
+}
+
+
+.listContainer li:hover {
+  border-bottom: 4px solid black;
+}

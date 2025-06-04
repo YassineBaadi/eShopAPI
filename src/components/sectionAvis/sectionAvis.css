@@ -1,0 +1,51 @@
+.sectionAvisContainer {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.sectionAvisContainer h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.avisGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.avisCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avisCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.avisCard h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+}
+
+.price {
+  color: #333;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.avisList p {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+  margin: 0.5rem 0;
+}
