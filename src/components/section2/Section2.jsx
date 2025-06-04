@@ -53,7 +53,7 @@ export default function Section2() {
 
      
       <div className="buttonWrapper">
-        <Link to="/produits" className="viewAllButton">
+        <Link to="/products" className="viewAllButton">
           Voir tous les produits
         </Link>
       </div>
