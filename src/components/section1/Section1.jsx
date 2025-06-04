@@ -45,7 +45,7 @@ export default function Section1() {
             >
               <div className="slideContent">
                 <h2>{slide.text}</h2>
-                <Link to={"/produit"}><button>{slide.button}</button></Link> 
+                <Link to={"/products"}><button>{slide.button}</button></Link> 
               </div>
             </div>
           </SwiperSlide>
